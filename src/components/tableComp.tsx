@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import {
     Table,
     TableBody,
@@ -8,7 +9,6 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table";
-
 export async function TableDemo() {
     let data;
     const url =
