@@ -8,10 +8,15 @@ export default function CountDown() {
         minutes: 0,
         seconds: 0,
     });
+    
+    const value: any = (val: number) =>  ({
+        "--value": val
+    })
 
     useEffect(() => {
         // Set your target date here
         const targetDate = new Date("2024-11-11T00:00:00").getTime();
+
 
         const updateCountdown = () => {
             const now = new Date().getTime();
@@ -45,28 +50,28 @@ export default function CountDown() {
                 <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
                     <span className="countdown font-mono text-5xl">
                         {/* Set the CSS variable --value dynamically for days */}
-                        <span style={{ "--value": timeLeft.days }}></span>
+                        <span style={value(timeLeft.days)}></span>
                     </span>
                     days
                 </div>
                 <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
                     <span className="countdown font-mono text-5xl">
                         {/* Set the CSS variable --value dynamically for hours */}
-                        <span style={{ "--value": timeLeft.hours }}></span>
+                        <span style={value(timeLeft.hours)}></span>
                     </span>
                     hours
                 </div>
                 <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
                     <span className="countdown font-mono text-5xl">
                         {/* Set the CSS variable --value dynamically for minutes */}
-                        <span style={{ "--value": timeLeft.minutes }}></span>
+                        <span style={value(timeLeft.minutes)}></span>
                     </span>
                     min
                 </div>
                 <div className="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
                     <span className="countdown font-mono text-5xl">
                         {/* Set the CSS variable --value dynamically for seconds */}
-                        <span style={{ "--value": timeLeft.seconds }}></span>
+                        <span style={value(timeLeft.seconds)}></span>
                     </span>
                     sec
                 </div>
