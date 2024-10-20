@@ -15,13 +15,15 @@ df.columns = ['user_name', 'profile_url', 'profile_status',
 
 df.fillna('', inplace=True)  
 
+df = df.sort_values(by=['redemption_status', 'num_badges_completed', 'num_arcade_games_completed'], ascending=False) 
+
 data_list = df.to_dict(orient='records')
 
-sorted_data = sorted(data_list, key=lambda x: (x['redemption_status'], x['num_badges_completed']), reverse=True)
+# sorted_data = sorted(data_list, key=lambda x: (x['redemption_status'], x['num_badges_completed'], x['num_arcade_games_completed']), reverse=True)
 
-json_data = json.dumps(sorted_data, indent=4)
+json_data = json.dumps(data_list, indent=4)
 
-with open('output.json', 'w') as json_file:
+with open('../public/output.json', 'w') as json_file:
     json_file.write(json_data)
 
 print("Data has been sorted, processed, and saved to output.json")

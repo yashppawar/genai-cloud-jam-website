@@ -9,11 +9,12 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table";
+import clsx from "clsx";
 export async function TableDemo() {
     let data;
     let lastModified;
-    const url =
-        "https://raw.githubusercontent.com/yashppawar/genai-cloud-jam-website/refs/heads/main/src/public/output.json";
+    const url = "https://raw.githubusercontent.com/yashppawar/genai-cloud-jam-website/refs/heads/main/src/public/output.json";
+    // const url = "https://localhost:5000/data.json";
     try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -52,7 +53,12 @@ export async function TableDemo() {
             </TableHeader>
             <TableBody>
                 {data.map((data: any) => (
-                    <TableRow key={data.user_name}>
+                    <TableRow key={data.user_name} className={clsx({
+                      'text-info': true,
+                      'text-success': data.num_badges_completed === 15 && data.num_arcade_games_completed === 1,
+                      'text-warning': data.num_badges_completed === 0 && data.num_arcade_games_completed === 0,
+                      'text-error': data.redemption_status === 'No',
+                    })}>
                         <TableCell className="font-medium">
                             {data.user_name}
                         </TableCell>
