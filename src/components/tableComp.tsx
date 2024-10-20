@@ -11,6 +11,7 @@ import {
 
 export async function TableDemo() {
     let data;
+    let lastModified;
     const url =
         "https://raw.githubusercontent.com/yashppawar/genai-cloud-jam-website/refs/heads/main/src/public/output.json";
     try {
@@ -18,6 +19,15 @@ export async function TableDemo() {
         if (!response.ok) {
             throw new Error(`Response status: ${response.status}`);
         }
+
+        const response1 = await fetch(url, {
+            method: 'HEAD', 
+          });
+        
+           lastModified = response1.headers.get('date') || 'Not available';
+           
+        console.log(lastModified)
+
 
         data = await response.json();
         // console.log(json);
@@ -59,7 +69,8 @@ export async function TableDemo() {
             <TableFooter>
                 <TableRow>
                     <TableCell colSpan={4}>
-                        Updated on October 18th 2024 12:30 IST
+                    Updated on {lastModified}
+                        {/* Updated on {October 18th 2024 12:30 IST} */}
                     </TableCell>
                     {/* <TableCell className="text-right">$2,500.00</TableCell> */}
                 </TableRow>
