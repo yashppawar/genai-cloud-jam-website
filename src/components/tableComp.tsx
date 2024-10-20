@@ -9,6 +9,7 @@ import {
     TableRow,
   } from "@/components/ui/table"
   
+  
   const invoices = [
     {
       invoice: "INV001",
@@ -54,32 +55,46 @@ import {
     },
   ]
   
-  export function TableDemo() {
+  export async function TableDemo() {
+    let data;
+const url = "https://raw.githubusercontent.com/yashppawar/genai-cloud-jam-website/refs/heads/main/src/public/output.json";
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Response status: ${response.status}`);
+    }
+
+    data = await response.json();
+    // console.log(json);
+  } catch (error) {
+    console.error(error.message);
+  }
+
     return (
       <Table>
         <TableCaption>A list of your recent invoices.</TableCaption>
         <TableHeader>
           <TableRow>
-            <TableHead className="w-[100px]">Name</TableHead>
-            <TableHead>Redemption Status</TableHead>
-            <TableHead>Num Badges Completed</TableHead>
-            <TableHead className="text-right">Num arcade games completed</TableHead>
+            <TableHead className="text-white">Name</TableHead>
+            {/* <TableHead>Redemption Status</TableHead> */}
+            <TableHead className="text-white">Skill Badges Completed</TableHead>
+            <TableHead className="text-center text-white">Arcade Game Completed</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
-          {invoices.map((invoice) => (
-            <TableRow key={invoice.invoice}>
-              <TableCell className="font-medium">{invoice.invoice}</TableCell>
-              <TableCell>{invoice.paymentStatus}</TableCell>
-              <TableCell>{invoice.paymentMethod}</TableCell>
-              <TableCell className="text-right">{invoice.totalAmount}</TableCell>
+          {data.map((data) => (
+            <TableRow key={data.user_name}>
+              <TableCell className="font-medium">{data.user_name}</TableCell>
+              {/* <TableCell>{invoice.paymentStatus}</TableCell> */}
+              <TableCell className="text-center">{data.num_badges_completed}</TableCell>
+              <TableCell className="text-center">{data.num_arcade_games_completed}</TableCell>
             </TableRow>
           ))}
         </TableBody>
         <TableFooter>
           <TableRow>
-            <TableCell colSpan={3}>Total</TableCell>
-            <TableCell className="text-right">$2,500.00</TableCell>
+            <TableCell colSpan={4}>Updated on October 18th 2024 12:30 IST</TableCell>
+            {/* <TableCell className="text-right">$2,500.00</TableCell> */}
           </TableRow>
         </TableFooter>
       </Table>
