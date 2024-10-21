@@ -17,7 +17,7 @@ df.fillna('', inplace=True)
 
 data_list = df.to_dict(orient='records')
 
-sorted_data = sorted(data_list, key=lambda x: (x['redemption_status'], x['num_badges_completed']), reverse=True)
+sorted_data = sorted(data_list, key=lambda x: (x['redemption_status'], x['num_badges_completed'],x['num_arcade_games_completed']), reverse=True)
 
 json_data = json.dumps(sorted_data, indent=4)
 

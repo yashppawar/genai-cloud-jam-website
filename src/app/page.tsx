@@ -20,7 +20,7 @@ export default function Home() {
         src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
         className="max-w-sm rounded-lg shadow-2xl"
     /> */}
-                    <Image src={gdg} width={500} height={500} alt="GDG" />
+                    <Image src={gdg} width={500} height={500} alt="GDG"  />
                     {/* <div  className="max-w-sm rounded-lg shadow-2xl"> */}
                     <div>
                         {/* <Image src={'/genai.png'} height={262} width={1291} alt="Gen AI by GDG VIIT"/> */}
