@@ -4,8 +4,23 @@ import { TableDemo } from "@/components/tableComp";
 import CountDown from "@/components/countDown";
 import gdg from "@/public/gdg.png";
 import viitfull from "@/public/viitfull.png";
+import Alert from "@/components/alert";
+import { LucideIcon, Terminal } from "lucide-react";
 // import gdgviit from "@/public/gdgviit.png";
 // import gdgviitfull from "@/public/gdgviitfull.png";
+type AlertMessage = {
+    text: string;
+    type?: string;
+    icon: LucideIcon
+}
+
+const alerts: AlertMessage[] = [
+    {
+        text: "GenAI ✨ live Session",
+        icon: Terminal,
+        type: 'warning'
+    },
+];
 
 const roboto = Roboto({
     weight: "500",
@@ -15,6 +30,11 @@ const roboto = Roboto({
 export default function Home() {
     return (
         <>
+            <div className={`text-secondary ${roboto.className}`}>
+                {
+                    alerts.map((alert: AlertMessage) => <Alert text={alert.text} Icon={alert.icon} type={alert.type} key={alert.text}/>)
+                }
+            </div>
             <div
                 className={`hero bg-base-200 min-h-screen text-secondary ${roboto.className}`}
             >
@@ -40,7 +60,7 @@ export default function Home() {
                             by GDG VIIT
                         </p>
                         <h3 className="font-mono py-2">Time Left ⌛</h3>
-                        <CountDown />
+                        <CountDown/>
                     </div>
                 </div>
             </div>
