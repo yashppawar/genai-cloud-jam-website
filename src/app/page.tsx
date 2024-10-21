@@ -2,25 +2,11 @@ import Image from "next/image";
 import { Roboto } from "next/font/google";
 import { TableDemo } from "@/components/tableComp";
 import CountDown from "@/components/countDown";
-import Alert from "@/components/alert";
-import { LucideIcon, Presentation } from "lucide-react";
 import gdgviit from "@/public/gdgviit.png";
+import Alerts from "@/components/alert";
 // import gdg from "@/public/gdg.png";
 // import viitfull from "@/public/viitfull.png";
 // import gdgviitfull from "@/public/gdgviitfull.png";
-type AlertMessage = {
-    text: string;
-    type?: string;
-    icon: LucideIcon;
-};
-
-const alerts: AlertMessage[] = [
-    {
-        text: "GenAI Cloud Study Jams live Session Today (21st October) @ 7 PM | join : https://meet.google.com/bsp-joqs-xvu",
-        icon: Presentation,
-        type: "warning",
-    },
-];
 
 const roboto = Roboto({
     weight: "500",
@@ -29,8 +15,8 @@ const roboto = Roboto({
 
 export default function Home() {
     return (
-        <>
-            <div className={`text-secondary ${roboto.className}`}>
+        <div className={`${roboto.className}`}>
+            {/* <div className={`text-secondary ${roboto.className}`}>
                 {alerts.map((alert: AlertMessage) => (
                     <Alert
                         text={alert.text}
@@ -39,10 +25,9 @@ export default function Home() {
                         key={alert.text}
                     />
                 ))}
-            </div>
-            <div
-                className={`hero bg-base-200 min-h-screen text-secondary ${roboto.className}`}
-            >
+            </div> */}
+            <Alerts />
+            <div className={`hero bg-base-200 min-h-screen text-secondary`}>
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     {/* <div className="flex flex-col justify-center align-center">
                         <Image src={gdg} className="m-auto" width={350} height={350} alt="GDG" />
@@ -70,9 +55,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div
-                className={`hero bg-base-200 min-h-screen text-secondary ${roboto.className}`}
-            >
+            <div className={`hero bg-base-200 min-h-screen text-secondary`}>
                 <div className="hero-content flex-col">
                     <h1 className="text-center text-3xl pb-10">
                         Who is on top of the Leaderboard?
@@ -94,6 +77,6 @@ export default function Home() {
                     <TableDemo />
                 </div>
             </div>
-        </>
+        </div>
     );
 }
