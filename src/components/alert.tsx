@@ -12,9 +12,9 @@ export default function Alert({
     Icon: LucideIcon;
 }) {
     return (
-        <div role="alert" className={clsx("alert alert-success rounded-none", {
+        <div role="alert" className={clsx("alert alert-info rounded-none", {
             "alert-warning": type === 'warning',
-            'alert-info': type === 'info',
+            'alert-success': type === 'success',
             'alert-error': type === 'error'
         })}>
             <Icon/>

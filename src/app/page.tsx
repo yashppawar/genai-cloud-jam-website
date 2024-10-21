@@ -2,23 +2,23 @@ import Image from "next/image";
 import { Roboto } from "next/font/google";
 import { TableDemo } from "@/components/tableComp";
 import CountDown from "@/components/countDown";
-import gdg from "@/public/gdg.png";
-import viitfull from "@/public/viitfull.png";
 import Alert from "@/components/alert";
 import { LucideIcon, Terminal } from "lucide-react";
-// import gdgviit from "@/public/gdgviit.png";
+import gdgviit from "@/public/gdgviit.png";
+// import gdg from "@/public/gdg.png";
+// import viitfull from "@/public/viitfull.png";
 // import gdgviitfull from "@/public/gdgviitfull.png";
 type AlertMessage = {
     text: string;
     type?: string;
-    icon: LucideIcon
-}
+    icon: LucideIcon;
+};
 
 const alerts: AlertMessage[] = [
     {
         text: "GenAI ✨ live Session",
         icon: Terminal,
-        type: 'warning'
+        type: "warning",
     },
 ];
 
@@ -31,24 +31,30 @@ export default function Home() {
     return (
         <>
             <div className={`text-secondary ${roboto.className}`}>
-                {
-                    alerts.map((alert: AlertMessage) => <Alert text={alert.text} Icon={alert.icon} type={alert.type} key={alert.text}/>)
-                }
+                {alerts.map((alert: AlertMessage) => (
+                    <Alert
+                        text={alert.text}
+                        Icon={alert.icon}
+                        type={alert.type}
+                        key={alert.text}
+                    />
+                ))}
             </div>
             <div
                 className={`hero bg-base-200 min-h-screen text-secondary ${roboto.className}`}
             >
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div>
-                        <Image src={gdg} width={500} height={50} alt="GDG" />
+                    {/* <div className="flex flex-col justify-center align-center">
+                        <Image src={gdg} className="m-auto" width={350} height={350} alt="GDG" />
                         <Image
-                            src={viitfull}
-                            width={500}
-                            height={50}
-                            alt="viit"
+                        src={viitfull}
+                        width={500}
+                        height={50}
+                        alt="viit"
                         />
-                    </div>
-                    
+                    </div> */}
+                    <Image src={gdgviit} width={500} height={500} alt="GDG" />
+
                     <div>
                         <h1
                             className={`text-center md:text-left text-5xl md:text-7xl font-bold`}
@@ -60,7 +66,7 @@ export default function Home() {
                             by GDG VIIT
                         </p>
                         <h3 className="font-mono py-2">Time Left ⌛</h3>
-                        <CountDown/>
+                        <CountDown />
                     </div>
                 </div>
             </div>
@@ -72,10 +78,18 @@ export default function Home() {
                         Who is on top of the Leaderboard?
                     </h1>
                     <ul className="steps">
-                        <li className="step step-error" data-content="🙅‍♂️">Not Reedemed</li>
-                        <li className="step step-warning" data-content="⌛">Not Started</li>
-                        <li className="step step-info" data-content="🧑‍💻">In Progress</li>
-                        <li className="step step-success" data-content="🥳">Completed</li>
+                        <li className="step step-error" data-content="🙅‍♂️">
+                            Not Reedemed
+                        </li>
+                        <li className="step step-warning" data-content="⌛">
+                            Not Started
+                        </li>
+                        <li className="step step-info" data-content="🧑‍💻">
+                            In Progress
+                        </li>
+                        <li className="step step-success" data-content="🥳">
+                            Completed
+                        </li>
                     </ul>
                     <TableDemo />
                 </div>
