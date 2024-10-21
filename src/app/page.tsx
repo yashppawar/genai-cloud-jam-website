@@ -3,7 +3,7 @@ import { Roboto } from "next/font/google";
 import { TableDemo } from "@/components/tableComp";
 import CountDown from "@/components/countDown";
 import Alert from "@/components/alert";
-import { LucideIcon, Terminal } from "lucide-react";
+import { LucideIcon, Presentation } from "lucide-react";
 import gdgviit from "@/public/gdgviit.png";
 // import gdg from "@/public/gdg.png";
 // import viitfull from "@/public/viitfull.png";
@@ -16,8 +16,8 @@ type AlertMessage = {
 
 const alerts: AlertMessage[] = [
     {
-        text: "GenAI ✨ live Session",
-        icon: Terminal,
+        text: "GenAI Cloud Study Jams live Session Today (21st October) @ 7 PM | join : https://meet.google.com/bsp-joqs-xvu",
+        icon: Presentation,
         type: "warning",
     },
 ];
