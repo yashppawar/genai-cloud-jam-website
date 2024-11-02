@@ -2,7 +2,6 @@
 import {
     Table,
     TableBody,
-    TableCaption,
     TableCell,
     TableFooter,
     TableHead,
@@ -14,7 +13,7 @@ export async function TableDemo() {
     let data;
     let lastModified;
     const url = "https://raw.githubusercontent.com/yashppawar/genai-cloud-jam-website/refs/heads/main/src/public/output.json";
-    // const url = "https://localhost:5000/data.json";
+   
     try {
         const response = await fetch(url);
         if (!response.ok) {
@@ -38,7 +37,7 @@ export async function TableDemo() {
 
     return (
         <Table>
-            <TableCaption>A list of your recent invoices.</TableCaption>
+            {/* <TableCaption>A list of your recent invoices.</TableCaption> */}
             <TableHeader>
                 <TableRow>
                     <TableHead className="text-white">Name</TableHead>

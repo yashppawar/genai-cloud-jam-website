@@ -19,7 +19,7 @@ df = df.sort_values(by=['redemption_status', 'num_badges_completed', 'num_arcade
 
 data_list = df.to_dict(orient='records')
 
-# sorted_data = sorted(data_list, key=lambda x: (x['redemption_status'], x['num_badges_completed'], x['num_arcade_games_completed']), reverse=True)
+# sorted_data = sorted(data_list, key=lambda x: (x['redemption_status'], x['num_badges_completed'],x['num_arcade_games_completed']), reverse=True)
 
 json_data = json.dumps(data_list, indent=4)
 
