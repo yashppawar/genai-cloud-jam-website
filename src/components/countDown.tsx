@@ -18,7 +18,7 @@ export default function CountDown() {
     useEffect(() => {
         // Set your target date here
         // const targetDate = new Date("2024-11-10T00:00:00").getTime();
-        const targetDate = new Date(2024, 10, 6, 0, 0, 0, 0).getTime();
+        const targetDate = new Date(2024, 10, 8, 0, 0, 0, 0).getTime();
 
         const updateCountdown = () => {
             const now = new Date().getTime();

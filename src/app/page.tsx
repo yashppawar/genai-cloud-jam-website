@@ -4,7 +4,7 @@ import { TableDemo } from "@/components/tableComp";
 import CountDown from "@/components/countDown";
 import gdgviit from "@/public/gdgviit.png";
 import Alerts from "@/components/alert";
-import { Link } from "lucide-react";
+import Link from "next/link";
 // import gdg from "@/public/gdg.png";
 // import viitfull from "@/public/viitfull.png";
 // import gdgviitfull from "@/public/gdgviitfull.png";
@@ -49,7 +49,7 @@ export default function Home() {
                         </h1>
                         {/* <Image src={gdgviitfull} width={500} height={500} alt="GDG" /> */}
                         <p className="py-6 text-center text-base-content md:text-left font-mono text-3xl lg:text-4xl">
-                            by <a href="https://gdg.community.dev/gdg-on-campus-vishwakarma-institute-of-information-technology-pune-india/">GDG VIIT</a>  
+                            by <Link href="https://gdg.community.dev/gdg-on-campus-vishwakarma-institute-of-information-technology-pune-india/">GDG VIIT</Link>  
                         </p>
                         <h3 className="font-mono py-2">Time Left ⌛</h3>
                         <CountDown />
