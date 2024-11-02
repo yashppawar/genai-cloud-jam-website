@@ -1,7 +1,8 @@
 import React from "react";
 import clsx from "clsx";
-import { Presentation } from "lucide-react";
-import Link from "next/link";
+import { CircleCheckBig } from "lucide-react";
+// import { Presentation } from "lucide-react";
+// import Link from "next/link";
 
 // {
 //         text: "GenAI Cloud Study Jams live Session Today (21st October) @ 7 PM | join : https://meet.google.com/bsp-joqs-xvu",
@@ -13,10 +14,12 @@ export default function Alerts() {
     return <div className={`text-secondary`}>
         <div
             role="alert"
-            className={clsx("alert alert-warning rounded-none")}
+            className={clsx("alert alert-success rounded-none")}
         >
-            <Presentation />
-            <span>GenAI Cloud Study Jams live Session Today (21st Oct) @ 7 PM | join : <Link href="https://meet.google.com/bsp-joqs-xvu" className="underline">https://meet.google.com/bsp-joqs-xvu</Link> </span>
+            {/* <Presentation /> */}
+            {/* <span>GenAI Cloud Study Jams live Session Today (21st Oct) @ 7 PM | join : <Link href="https://meet.google.com/bsp-joqs-xvu" className="underline">https://meet.google.com/bsp-joqs-xvu</Link> </span> */}
+            <CircleCheckBig />  
+            <span>GenAI Cloud Study Jams are resumed</span>
         </div>
     </div>;
 }
