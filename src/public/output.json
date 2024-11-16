@@ -30,6 +30,16 @@
         "num_arcade_games_completed": 1
     },
     {
+        "user_name": "Aditya Shinde",
+        "profile_url": "https://www.cloudskillsboost.google/public_profiles/df43780a-e666-4baf-a9b6-b4106319db9e",
+        "profile_status": "All Good",
+        "redemption_status": "Yes",
+        "badges_games_completed": "Yes",
+        "num_badges_completed": 15,
+        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Cloud Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Networking Fundamentals on Google Cloud [Skill Badge] | Analyze Images with the Cloud Vision API [Skill Badge] | Prompt Design in Vertex AI [Skill Badge] | Develop GenAI Apps with Gemini and Streamlit [Skill Badge]",
+        "num_arcade_games_completed": 1
+    },
+    {
         "user_name": "Shubhangi Ramesh Nimbalkar",
         "profile_url": "https://www.cloudskillsboost.google/public_profiles/b2b0ed56-838a-4e52-96b7-26ad1982e7d8",
         "profile_status": "All Good",
@@ -100,14 +110,14 @@
         "num_arcade_games_completed": 1
     },
     {
-        "user_name": "Aditya Shinde",
-        "profile_url": "https://www.cloudskillsboost.google/public_profiles/df43780a-e666-4baf-a9b6-b4106319db9e",
+        "user_name": "Alpesh Vijay Thool",
+        "profile_url": "https://www.cloudskillsboost.google/public_profiles/afcdb4b4-985f-4c4f-9c56-2530d6bc373e",
         "profile_status": "All Good",
         "redemption_status": "Yes",
         "badges_games_completed": "No",
-        "num_badges_completed": 13,
-        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Cloud Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Networking Fundamentals on Google Cloud [Skill Badge] | Analyze Images with the Cloud Vision API [Skill Badge]",
-        "num_arcade_games_completed": 1
+        "num_badges_completed": 12,
+        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Cloud Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Networking Fundamentals on Google Cloud [Skill Badge]",
+        "num_arcade_games_completed": 0
     },
     {
         "user_name": "Devendra Moharir",
@@ -150,6 +160,16 @@
         "num_arcade_games_completed": 1
     },
     {
+        "user_name": "Shravani Anil Korde",
+        "profile_url": "https://www.cloudskillsboost.google/public_profiles/119c0cf2-f239-4b36-8c9a-241690a5fa5b",
+        "profile_status": "All Good",
+        "redemption_status": "Yes",
+        "badges_games_completed": "No",
+        "num_badges_completed": 11,
+        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Cloud Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Networking Fundamentals on Google Cloud [Skill Badge] | Analyze Images with the Cloud Vision API [Skill Badge]",
+        "num_arcade_games_completed": 0
+    },
+    {
         "user_name": "Kaivalya Beohar",
         "profile_url": "https://www.cloudskillsboost.google/public_profiles/71ef4ff4-9335-46fe-a9fa-0b1769cef41a",
         "profile_status": "All Good",
@@ -158,16 +178,6 @@
         "num_badges_completed": 10,
         "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Cloud Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Prompt Design in Vertex AI [Skill Badge]",
         "num_arcade_games_completed": 1
-    },
-    {
-        "user_name": "Alpesh Vijay Thool",
-        "profile_url": "https://www.cloudskillsboost.google/public_profiles/afcdb4b4-985f-4c4f-9c56-2530d6bc373e",
-        "profile_status": "All Good",
-        "redemption_status": "Yes",
-        "badges_games_completed": "No",
-        "num_badges_completed": 10,
-        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Cloud Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge]",
-        "num_arcade_games_completed": 0
     },
     {
         "user_name": "Sujay Deshpande",
@@ -180,14 +190,14 @@
         "num_arcade_games_completed": 1
     },
     {
-        "user_name": "Shravani Anil Korde",
-        "profile_url": "https://www.cloudskillsboost.google/public_profiles/119c0cf2-f239-4b36-8c9a-241690a5fa5b",
+        "user_name": "Manohar Prashant Sonsale",
+        "profile_url": "https://www.cloudskillsboost.google/public_profiles/fdc227cf-0982-47b5-8591-a2bf6ef5dc5f",
         "profile_status": "All Good",
         "redemption_status": "Yes",
         "badges_games_completed": "No",
         "num_badges_completed": 9,
-        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Cloud Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge]",
-        "num_arcade_games_completed": 0
+        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Get Started with Dataplex [Skill Badge] | Get Started with Google Workspace Tools [Skill Badge] | Cloud Functions: 3 Ways [Skill Badge] | App Engine: 3 Ways [Skill Badge]",
+        "num_arcade_games_completed": 1
     },
     {
         "user_name": "Tanishka Manoj Suryvanshi",
@@ -195,13 +205,23 @@
         "profile_status": "All Good",
         "redemption_status": "Yes",
         "badges_games_completed": "No",
-        "num_badges_completed": 6,
-        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Prompt Design in Vertex AI [Skill Badge]",
+        "num_badges_completed": 7,
+        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with Dataplex [Skill Badge] | App Engine: 3 Ways [Skill Badge] | Monitoring in Google Cloud [Skill Badge] | Prompt Design in Vertex AI [Skill Badge]",
         "num_arcade_games_completed": 1
     },
     {
-        "user_name": "Manohar Prashant Sonsale",
-        "profile_url": "https://www.cloudskillsboost.google/public_profiles/fdc227cf-0982-47b5-8591-a2bf6ef5dc5f",
+        "user_name": "Yash Pravin Pawar",
+        "profile_url": "https://www.cloudskillsboost.google/public_profiles/72555034-cf7d-442c-a800-e507f6f55c7d",
+        "profile_status": "All Good",
+        "redemption_status": "Yes",
+        "badges_games_completed": "No",
+        "num_badges_completed": 7,
+        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Cloud Functions: 3 Ways [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge] | Networking Fundamentals on Google Cloud [Skill Badge] | Analyze Images with the Cloud Vision API [Skill Badge]",
+        "num_arcade_games_completed": 1
+    },
+    {
+        "user_name": "Shlesha Shashikant Patil",
+        "profile_url": "https://www.cloudskillsboost.google/public_profiles/ad8b629f-29fc-48bb-8588-026f2073ef9d",
         "profile_status": "All Good",
         "redemption_status": "Yes",
         "badges_games_completed": "No",
@@ -227,26 +247,6 @@
         "badges_games_completed": "No",
         "num_badges_completed": 5,
         "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Looker [Skill Badge] | Cloud Speech API: 3 Ways [Skill Badge]",
-        "num_arcade_games_completed": 1
-    },
-    {
-        "user_name": "Yash Pravin Pawar",
-        "profile_url": "https://www.cloudskillsboost.google/public_profiles/72555034-cf7d-442c-a800-e507f6f55c7d",
-        "profile_status": "All Good",
-        "redemption_status": "Yes",
-        "badges_games_completed": "No",
-        "num_badges_completed": 5,
-        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Cloud Functions: 3 Ways [Skill Badge] | Analyze Images with the Cloud Vision API [Skill Badge]",
-        "num_arcade_games_completed": 1
-    },
-    {
-        "user_name": "Shlesha Shashikant Patil",
-        "profile_url": "https://www.cloudskillsboost.google/public_profiles/ad8b629f-29fc-48bb-8588-026f2073ef9d",
-        "profile_status": "All Good",
-        "redemption_status": "Yes",
-        "badges_games_completed": "No",
-        "num_badges_completed": 5,
-        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge] | Get Started with API Gateway [Skill Badge] | Get Started with Dataplex [Skill Badge]",
         "num_arcade_games_completed": 1
     },
     {
@@ -300,6 +300,16 @@
         "num_arcade_games_completed": 1
     },
     {
+        "user_name": "Prajwal Chopade",
+        "profile_url": "https://www.cloudskillsboost.google/public_profiles/895878b4-7f55-4da3-ab6b-3f6805cbdc84",
+        "profile_status": "All Good",
+        "redemption_status": "Yes",
+        "badges_games_completed": "No",
+        "num_badges_completed": 3,
+        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with Pub/Sub [Skill Badge]",
+        "num_arcade_games_completed": 1
+    },
+    {
         "user_name": "Siddhesh Deepak Narnavre",
         "profile_url": "https://www.cloudskillsboost.google/public_profiles/f631a364-c698-4e54-b626-aac23fb872ec",
         "profile_status": "All Good",
@@ -328,16 +338,6 @@
         "num_badges_completed": 3,
         "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge] | Get Started with API Gateway [Skill Badge]",
         "num_arcade_games_completed": 0
-    },
-    {
-        "user_name": "Prajwal Chopade",
-        "profile_url": "https://www.cloudskillsboost.google/public_profiles/895878b4-7f55-4da3-ab6b-3f6805cbdc84",
-        "profile_status": "All Good",
-        "redemption_status": "Yes",
-        "badges_games_completed": "No",
-        "num_badges_completed": 2,
-        "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge] | Get Started with Cloud Storage [Skill Badge]",
-        "num_arcade_games_completed": 1
     },
     {
         "user_name": "Piyush Anilrao Thorve",
@@ -387,6 +387,16 @@
         "badges_games_completed": "No",
         "num_badges_completed": 1,
         "completed_badge_names": "The Basics of Google Cloud Compute [Skill Badge]",
+        "num_arcade_games_completed": 0
+    },
+    {
+        "user_name": "Tanvi Dilip Vilaskar",
+        "profile_url": "https://www.cloudskillsboost.google/public_profiles/18078aac-c7fd-4544-bc28-660622af6c17",
+        "profile_status": "All Good",
+        "redemption_status": "Yes",
+        "badges_games_completed": "No",
+        "num_badges_completed": 1,
+        "completed_badge_names": "Get Started with Cloud Storage [Skill Badge]",
         "num_arcade_games_completed": 0
     },
     {
@@ -692,16 +702,6 @@
     {
         "user_name": "Urmila Awasarmal",
         "profile_url": "https://www.cloudskillsboost.google/public_profiles/5aff03dc-60ae-4268-a6bc-233af4b5e551",
-        "profile_status": "All Good",
-        "redemption_status": "Yes",
-        "badges_games_completed": "No",
-        "num_badges_completed": 0,
-        "completed_badge_names": "",
-        "num_arcade_games_completed": 0
-    },
-    {
-        "user_name": "Tanvi Dilip Vilaskar",
-        "profile_url": "https://www.cloudskillsboost.google/public_profiles/18078aac-c7fd-4544-bc28-660622af6c17",
         "profile_status": "All Good",
         "redemption_status": "Yes",
         "badges_games_completed": "No",
