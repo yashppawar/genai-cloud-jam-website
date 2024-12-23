@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { Roboto } from "next/font/google";
 import { cn } from '@/lib/utils';
 import { getCertificateDetails } from '@/lib/certificate-actions';
+import type { Metadata } from 'next'
 
 const roboto = Roboto({
   weight: "500",
@@ -11,9 +12,31 @@ const roboto = Roboto({
 
 interface CertificatePageProps {
   params: { id: string };
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }
 
-async function CertificatePage({ params }: CertificatePageProps) {
+export const generateMetadata =  async ({ params }: CertificatePageProps): Promise<Metadata> => {
+  // read route params
+  const { id } = params;
+  const certificate = await getCertificateDetails(id);
+ 
+  if (!certificate) {
+    return {
+      title: "Invalid CertificateID",
+      description: "Couldnt resolve the certificate ID"
+    }
+  }
+ 
+  return {
+    title: `${certificate.eventName} Certificate`,
+    description: `Certifidcate of Completion Awarded to ${certificate.name}`,
+    openGraph: {
+      images: [`/certificates/${certificate.id}.png`],
+    },
+  }
+}
+
+export default async function CertificatePage({ params }: CertificatePageProps) {
   const { id } = params;
   const certificate = await getCertificateDetails(id);
 
@@ -69,5 +92,3 @@ async function CertificatePage({ params }: CertificatePageProps) {
     </div>
   );
 }
-
-export default CertificatePage;

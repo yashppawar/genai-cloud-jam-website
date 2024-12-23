@@ -93,13 +93,6 @@ const certificates: Certificate[] = [
     organizer: 'GDG VIIT',
   },
   {
-    id: '2024-gcsj-102e82e2',
-    name: 'Vishwanath Mishra',
-    eventName: 'GenAI Cloud Study Jams',
-    issueDate: '2024-11-20',
-    organizer: 'GDG VIIT',
-  },
-  {
     id: '2024-gcsj-4253804e',
     name: 'Yash Kamlesh Kataria',
     eventName: 'GenAI Cloud Study Jams',
