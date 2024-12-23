@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Roboto } from "next/font/google";
 import { TableDemo } from "@/components/tableComp";
 import CountDown from "@/components/countDown";
-import gdgviit from "@/public/gdgviit.png";
 import Alerts from "@/components/alert";
 import Link from "next/link";
 // import gdg from "@/public/gdg.png";
@@ -39,7 +38,7 @@ export default function Home() {
                         alt="viit"
                         />
                     </div> */}
-                    <Image src={gdgviit} width={500} height={500} alt="GDG"/>
+                    <Image src={'/gdgviit.png'} width={500} height={500} alt="GDG"/>
 
                     <div>
                         <h1
